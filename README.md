@@ -44,8 +44,13 @@ PCB WAY 🔥🔥🔥
 --
 <img width="1892" height="1080" alt="Captura de pantalla 2026-07-30 205220" src="https://github.com/user-attachments/assets/95d51506-b5a2-4af4-818e-9471622a5fa3" />
 
-ASSEMBLY 
+TUTORIAL
 --
+Se divide en 4 bloques el circuito.
+la entrada y carga es el USB-C que es el que recibe la carga y el TP4056, carga la bateria de forma segura.
+la bateria y proteccion, el dw01a con el fs8205a protegen la celda contra sobrecarga,sobredescarga y corto.
+monitoreo es el max17048, mide el % de bateria y el ariny1614 lo diubuja en la pantalla oled-
+la salida de energia es el mt3608 que sube el voltage de la bateria a 5v estables para el puerto usb-a
 
 NOTES
 ---
