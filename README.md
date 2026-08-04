@@ -7,8 +7,6 @@ o m g
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190109" src="https://github.com/user-attachments/assets/3b539512-09d2-47b9-9140-d1e108273b01" />
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190210" src="https://github.com/user-attachments/assets/fedccf86-5838-4aba-89ed-204fc9c0ff5c" />
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190120" src="https://github.com/user-attachments/assets/536a18ba-14db-4731-8c40-745f2834834a" />
-<img width="887" height="237" alt="Captura de pantalla 2026-07-30 205137" src="https://github.com/user-attachments/assets/9d6b85a6-1869-4088-8949-2795df3cac88" />
-w o w  isnt it pretty :O 
 
 
 BTW BTW BTW low key look at my [JOURNAL.MD WOOWOWOWOWOWWOWOOOO!](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/actualizacion/journal.md)
@@ -59,11 +57,19 @@ BOM
 PCB WAY 
 chat is this fire? 
 <img width="1892" height="1080" alt="Captura de pantalla 2026-07-30 205220" src="https://github.com/user-attachments/assets/95d51506-b5a2-4af4-818e-9471622a5fa3" />
+<img width="887" height="237" alt="Captura de pantalla 2026-07-30 205137" src="https://github.com/user-attachments/assets/9d6b85a6-1869-4088-8949-2795df3cac88" />
+w o w  isnt it pretty :O 
+
+
 
 TUTORIAL & HOW DOES ITR WORK? HUH 
 --
 The circuit is divided into 4 blocks. The input and charging part is the USB-C, which receives the charge, and the TP4056, which safely charges the battery. The battery and protection section, with the DW01A and FS8205A, protects the cell against overcharge, overdischarge, and short circuits. The monitoring is done by the MAX17048, which measures the battery percentage, and the ARINY1614, which displays it on the OLED screen. The power output is the MT3608, which boosts the battery voltage to a stable 5V for the USB-A port.
+Open the Power Blinck file, the schematic, and the PCB in KiCad. The symbols and footprints of the components are not included by default in KiCAS, but I attached the footprints and symbols in the PCB files. Add them as a library before opening the project, run the ERC and DRC to make sure everything is clean. To manufacture, use the Gerber files; they can be uploaded directly to PCBWay and like that :B
+
 
 NOTES
 ---
 This project was made for [MACONDO](https://macondo.hackclub.com/dashboard)
+
+ill improve this project, there some things that ill change, maybe chips, modules or somthing like that. if u want to do this lil tutorial dont get mad at me if it doesnt work lolazo 
