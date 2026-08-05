@@ -39,7 +39,7 @@ CAD
  the oled is 5.584 & 22.384 long
  the entry of c 14.4 long 
  the entry of a is 8.94 cm long 
- 
+ (btw ignore the pcb it was a scratch )
  <img width="427" height="320" alt="image" src="https://github.com/user-attachments/assets/090b6b10-d9fa-4980-a083-6240affb0ce4" />
 
 
