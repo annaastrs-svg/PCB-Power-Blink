@@ -56,7 +56,7 @@ BOM
 
 | Component | Purpose | Qty | Price | link|
 |---|---|---|---|---|
-| LiPo Battery 3.7V | Fuente de energía principal | 1 | ~$2.29 | i alrdy have one lol |
+| LiPo Battery 3.7V | Fuente de energía principal | 1 | ~$2.29 | i alrdy have one lolazo |
 | TP4056-42-ESOP8 | IC de carga | 1 | ~$0.09 | [LCSC C16581](https://www.lcsc.com/product-detail/Battery-Management-ICs_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.html) |
 | DW01A-G | Controlador de protección | 1 | ~$0.07 | [LCSC C61503](https://www.lcsc.com/product-detail/C61503.html) |
 | FS8205A | MOSFETs de protección | 1 | ~$0.03 | [LCSC C908265](https://www.lcsc.com/product-detail/MOSFETs_FUXINSEMI-FS8205A_C908265.html) |
@@ -137,6 +137,8 @@ PCB WAY
 chat is this fire? 
 <img width="1892" height="1080" alt="Captura de pantalla 2026-07-30 205220" src="https://github.com/user-attachments/assets/95d51506-b5a2-4af4-818e-9471622a5fa3" />
 <img width="887" height="237" alt="Captura de pantalla 2026-07-30 205137" src="https://github.com/user-attachments/assets/9d6b85a6-1869-4088-8949-2795df3cac88" />
+
+
 w o w  isnt it pretty :O 
 
 
