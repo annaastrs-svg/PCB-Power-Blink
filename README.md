@@ -9,7 +9,7 @@ o m g
 
 Power blink charges though USB-C and delivers power though USB-A, with an onboard fuel gauge and microcontroller driving a small OLED display that shows the actuall battery charge level :B 
 
-BTW BTW BTW low key look at my [JOURNAL.MD WOOWOWOWOWOWWOWOOOO!](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/main/Journal.md)
+BTW BTW BTW low key look at my [JOURNAL.MD WOOWOWOWOWOWWOWOOOO!](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/Pcb/Journal.md)
 
 KiCAD
 --
