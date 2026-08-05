@@ -161,11 +161,3 @@ This project was made for [MACONDO](https://macondo.hackclub.com/dashboard)
 
 ill improve this project, there some things that ill change, maybe chips, modules or somthing like that. if u want to do this lil tutorial dont get mad at me if it doesnt work lolazo, Im 80 % sure it works !! 
 
-
-DRC
----
-I do feel good cus at the start the drc was like "50 errors and 60 advices " . . .
-sooo aja im happy 
-<img width="643" height="462" alt="Captura de pantalla 2026-08-05 132848" src="https://github.com/user-attachments/assets/96351dbd-3104-451e-bcb6-82a7cde965f9" />
-<img width="247" height="157" alt="Captura de pantalla 2026-08-05 135639" src="https://github.com/user-attachments/assets/683bbfcb-28c3-4cea-b1a0-f69e85beeb6a" />
-some advices are rlly dumb, probably im making another version of this project soon
