@@ -54,11 +54,11 @@ CAD
 <img width="1055" height="658" alt="Captura de pantalla 2026-08-04 135139" src="https://github.com/user-attachments/assets/16225cec-28f6-403d-8fbd-47161a59f7aa" />
 <img width="1147" height="742" alt="Captura de pantalla 2026-08-04 135057" src="https://github.com/user-attachments/assets/ee97f995-f0a4-42c5-8fcf-506cbf82f365" />
 
-[look CAD file ](https://github.com/annaastrs-svg/PCB-Power-Blink/tree/main/CAD)
+[look CAD file ](https://github.com/annaastrs-svg/PCB-Power-Blink/tree/Pcb/CAD)
 
 BOM 
 ---
-[BOM file ](https://github.com/annaastrs-svg/Battle-Bot-/blob/actualizacion/laminax_bot.ino)
+[BOM file ](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/Pcb/Documentation/BOM.csv)
 
 | Component | Purpose | Qty | Price | link|
 |---|---|---|---|---|
@@ -81,6 +81,7 @@ BOM
 **Estimated Total: ~$8.00 USD (sin batería yey )**
 
 ## Connection table
+[also look at the connection table](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/Pcb/Documentation/Tabla%20de%20Conexiones.csv)
 
 | Componente | Pin | → | Componente | Pin |
 |---|---|---|---|---|
