@@ -53,7 +53,6 @@ CAD
 
 <img width="1055" height="658" alt="Captura de pantalla 2026-08-04 135139" src="https://github.com/user-attachments/assets/16225cec-28f6-403d-8fbd-47161a59f7aa" />
 <img width="1147" height="742" alt="Captura de pantalla 2026-08-04 135057" src="https://github.com/user-attachments/assets/ee97f995-f0a4-42c5-8fcf-506cbf82f365" />
-<img width="692" height="392" alt="Captura de pantalla 2026-08-04 135509" src="https://github.com/user-attachments/assets/6f5ab02c-db72-4bd9-8e2e-df1c571dbaae" />
 
 [look CAD file ](https://github.com/annaastrs-svg/PCB-Power-Blink/tree/main/CAD)
 
