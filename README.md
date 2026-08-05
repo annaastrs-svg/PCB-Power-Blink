@@ -1,14 +1,13 @@
 Power Blink  ;)
 ---
-Power blink is a power bank–type PCB module, mainly designed to charge batteries safely :B  
-
-it has a screen that tells you about the charge  
+A power bank PCB Module designed in KiCAD, to safly charge lithium battery and u can look in the display the battery percentage on the oled screen
 o m g 
 
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190109" src="https://github.com/user-attachments/assets/3b539512-09d2-47b9-9140-d1e108273b01" />
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190210" src="https://github.com/user-attachments/assets/fedccf86-5838-4aba-89ed-204fc9c0ff5c" />
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190120" src="https://github.com/user-attachments/assets/536a18ba-14db-4731-8c40-745f2834834a" />
 
+Power blink charges though USB-C and delivers power though USB-A, with an onboard fuel gauge and microcontroller driving a small OLED display that shows the actuall battery charge level :B 
 
 BTW BTW BTW low key look at my [JOURNAL.MD WOOWOWOWOWOWWOWOOOO!](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/main/Journal.md)
 
@@ -30,15 +29,13 @@ PCB Huellas
 
 CAD
 ---
+
  CAD detailes :
  The PCB is 55.8067 mm long & 40.9582 tall so i added 2 mm in all sides so it can fit in 
- 
+
  the button is 6x6 mm
- 
  the oled is 5.584 & 22.384 long
- 
  the entry of c 14.4 long 
- 
  the entry of a is 8.94 cm long 
  
  <img width="427" height="320" alt="image" src="https://github.com/user-attachments/assets/090b6b10-d9fa-4980-a083-6240affb0ce4" />
@@ -126,10 +123,14 @@ Add them as a library before opening the project, run the ERC and DRC to make su
 To manufacture, use the Gerber files; they can be uploaded directly to PCBWay and like that :B
 
 
-The circuit is divided into 4 blocks. The input and charging part is the USB-C, which receives the charge, and the TP4056, which safely charges the battery. 
-The battery and protection section, with the DW01A and FS8205A, protects the cell against overcharge, overdischarge, and short circuits. 
-The monitoring is done by the MAX17048, which measures the battery percentage, and the ARINY1614, which displays it on the OLED screen.
-The power output is the MT3608, which boosts the battery voltage to a stable 5V for the USB-A port.
+The circuit is divided into 4 blocks. The input and charging part is the USB-C, which receives the charge, and the TP4056, which safely charges the battery. (TP4056 SAFE)
+
+The battery and protection section, with the DW01A and FS8205A, protects the cell against overcharge, overdischarge, and short circuits. (DW01A , FS8205A PROTECTS )
+
+The monitoring is done by the MAX17048, which measures the battery percentage, and the ARINY1614, which displays it on the OLED screen. (MAX17048 MEASURE , ARINY1614 READS AND SHOW  )
+
+The power output is the MT3608, which boosts the battery voltage to a stable 5V for the USB-A port. (MT3608 STABLE VOLTAGES)
+
 
 
 PCB WAY 
