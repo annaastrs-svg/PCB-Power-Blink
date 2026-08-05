@@ -14,13 +14,16 @@ BTW BTW BTW low key look at my [JOURNAL.MD WOOWOWOWOWOWWOWOOOO!](https://github.
 KiCAD
 --
 Esquematico
+--
 <img width="1080" height="652" alt="Captura de pantalla 2026-08-05 123812" src="https://github.com/user-attachments/assets/4a7ed007-5ebb-4c73-bd94-06cb2228b655" />
 
 
 PCB
+--
 <img width="1403" height="1045" alt="Captura de pantalla 2026-08-05 142304" src="https://github.com/user-attachments/assets/c2235250-6471-4326-9b0b-aec46ba79d01" />
 
-3D VIEW 🔥
+3D VIEW 
+--
 <img width="1278" height="927" alt="Captura de pantalla 2026-08-05 142138" src="https://github.com/user-attachments/assets/54519417-d647-4133-a2bf-63268562e42b" />
 
 
@@ -33,12 +36,17 @@ CAD
 ---
 
  CAD detailes :
+ 
  The PCB is 55.8067 mm long & 40.9582 tall so i added 2 mm in all sides so it can fit in 
 
  the button is 6x6 mm
+ 
  the oled is 5.584 & 22.384 long
+ 
  the entry of c 14.4 long 
+ 
  the entry of a is 8.94 cm long 
+ 
  (btw ignore the pcb it was a scratch )
  <img width="427" height="320" alt="image" src="https://github.com/user-attachments/assets/090b6b10-d9fa-4980-a083-6240affb0ce4" />
 
@@ -133,12 +141,13 @@ The monitoring is done by the MAX17048, which measures the battery percentage, a
 
 The power output is the MT3608, which boosts the battery voltage to a stable 5V for the USB-A port. (MT3608 STABLE VOLTAGES)
 
-
+i loved making this pcb cus it looks easy but at the moment u see a lot of chips/modules with a lot of pins u cant avoid panic
+in my projects i struggle a lot with power distribution and this had helpped me a lot :B 
 
 PCB WAY 
 --
 THIS IS THE V.1 OF THE PROJECT !! (I did it 2 times cus i didnt like v.1)
-<img width="1892" height="1080" alt="Captura de pantalla 2026-07-30 205220" src="https://github.com/user-attachments/assets/95d51506-b5a2-4af4-818e-9471622a5fa3" />
+
 <img width="887" height="237" alt="Captura de pantalla 2026-07-30 205137" src="https://github.com/user-attachments/assets/9d6b85a6-1869-4088-8949-2795df3cac88" />
 
 This is V.2 in PCB basics simulation of the pcb :B 
@@ -160,4 +169,4 @@ I do feel good cus at the start the drc was like "50 errors and 60 advices " . .
 sooo aja im happy 
 <img width="643" height="462" alt="Captura de pantalla 2026-08-05 132848" src="https://github.com/user-attachments/assets/96351dbd-3104-451e-bcb6-82a7cde965f9" />
 <img width="247" height="157" alt="Captura de pantalla 2026-08-05 135639" src="https://github.com/user-attachments/assets/683bbfcb-28c3-4cea-b1a0-f69e85beeb6a" />
-some things are rlly dumb, probably im making another version of this project soon
+some advices are rlly dumb, probably im making another version of this project soon
