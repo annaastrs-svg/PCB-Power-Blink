@@ -2,8 +2,6 @@ Just find a old module that charges my phone (i explote a battery with that modu
 <img width="763" height="546" alt="image" src="https://github.com/user-attachments/assets/d930185b-f1a0-432c-9f6b-0c9e171a7aa9" />
 <img width="495" height="430" alt="image" src="https://github.com/user-attachments/assets/df5351ef-a5b3-4941-a756-42f19196d458" />
 
-also i did burn this one 
-<img width="1920" height="1080" alt="WIN_20260724_09_55_28_Pro" src="https://github.com/user-attachments/assets/64f662ea-7c4a-4b4f-a7a6-341476a81cff" />
 
 esquematico 1 
 <img width="1027" height="677" alt="Captura de pantalla 2026-07-30 130646" src="https://github.com/user-attachments/assets/d6745747-9adb-43da-8416-2859d54630f0" />
@@ -30,7 +28,24 @@ pcb bien
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190109" src="https://github.com/user-attachments/assets/f7feda64-b536-4585-9034-b9f5659c18f4" />
 
 
-bom 
+| Component | Purpose | Qty | Price | link|
+|---|---|---|---|---|
+| LiPo Battery 3.7V | Fuente de energía principal | 1 | ~$2.29 | i alrdy have one lolazo |
+| TP4056-42-ESOP8 | IC de carga | 1 | ~$0.09 | [LCSC C16581](https://www.lcsc.com/product-detail/Battery-Management-ICs_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.html) |
+| DW01A-G | Controlador de protección | 1 | ~$0.07 | [LCSC C61503](https://www.lcsc.com/product-detail/C61503.html) |
+| FS8205A | MOSFETs de protección | 1 | ~$0.03 | [LCSC C908265](https://www.lcsc.com/product-detail/MOSFETs_FUXINSEMI-FS8205A_C908265.html) |
+| MAX17048G+T10 | Fuel gauge (I2C) | 1 | ~$1.34 | [LCSC C2682616](https://www.lcsc.com/product-detail/C2682616.html) |
+| ATtiny1614-SSN | Microcontrolador | 1 | ~$1.67 | [LCSC C614832](https://www.lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Microchip-Tech-ATTINY1614-SSN_C614832.html) |
+| MT3608 | Boost converter a 5V | 1 | ~$0.11 | [LCSC C84817](https://www.lcsc.com/product-detail/C84817.html) |
+| USB-C Receptacle (Hroparts) | Entrada de carga | 1 | ~$0.10 | [LCSC C165948](https://www.lcsc.com/product-detail/C165948.html) |
+| USB-A Receptacle THT | Salida de energía | 1 | ~$0.15 | genérico, cualquier tienda |
+| OLED 0.91" I2C SSD1306 | Pantalla de batería | 1 | ~$1.20 | [AliExpress](https://www.aliexpress.com/item/33024849277.html) |
+| Pulsador momentáneo 6mm | Despertar pantalla | 1 | ~$0.05 | genérico |
+| SS34 Schottky | Diodo del boost | 1 | ~$0.05 | genérico |
+| LEDs indicadores (CHRG/STDBY) | Indicadores de carga | 2 | ~$0.02 ea. | genérico |
+| Resistencias SMD (varias) | 5.1k, 4.7k, 2.4k, 470, 1k, 10k, 75k | 10 | ~$0.01 ea. | genérico |
+| Capacitores SMD (10-22µF) | Desacople/filtro | 6 | ~$0.03 ea. | genérico |
+
 
 cad 
 <img width="692" height="392" alt="Captura de pantalla 2026-08-04 135509" src="https://github.com/user-attachments/assets/7d0a1767-d0da-4059-83e6-bc7b9704ed2d" />
@@ -39,10 +54,17 @@ cad
 
 COSITASSSS 
 ---
-hola crayola
-emm pues el drc siempre salia de la cola y me decia que no estaba conectado nada y por mas que lo re hiciera no se ponia y siempre estaba mal y me tarde como 2 horas en hacer todo mil fakin veces ki cad te odio , ntc kicad te amo 
+hi crayola
+umm well the DRC always popped up with errors and told me nothing was connected, and no matter how many times I redid it, it wouldn’t fix, and it was always wrong, and it took me like 2 hours to do everything a thousand freaking times lol ki cad I hate you, jk ki cad I love you
 
-la pcb odiaba como se veia y como los modulos C y A ocupan estar pegados a la orilla y queria tener un orden pero luego no podia conectar las cosas sonde iban y no pude etiquetas globales entncs estaba con el esquematico y con gemini haciendo la pcb . . . 
-realmenete dije ay nada q cuando la haga en vez de que se explote la bateria se explote el modulo lol
+
+the PCB hated how it looked and how modules C and A had to be stuck to the edge, and I wanted to keep it organized, but then I couldn’t connect things where they were supposed to go and I couldn’t do global labels, so I was stuck with the schematic and Gemini making the PCB...
+I honestly thought, ah whatever, when I make it instead of the battery exploding, the module will explode lol
+
+
+It was likeee 12 hours cus i did the pcb part like 3 times, also the eschematic sometimes was confusing like i didnt understand my self...
+
+
+its like 8 dolars of chep components + 4 dolrs of pcb way to make it and like 10 for it to come to my house lolazo
 
 
