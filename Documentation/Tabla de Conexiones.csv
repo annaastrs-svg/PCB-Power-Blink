@@ -1,0 +1,39 @@
+Componente Origen,Pin Origen,Componente Destino,Pin Destino,Notas
+J3 (USB-C),VBUS,U8 (TP4056),VCC,
+J3 (USB-C),"CC1, CC2",GND,,via R1 y R2 (5.1k)
+U8 (TP4056),CE,VCC,,
+U8 (TP4056),CHRG,LED D2,,hacia VCC
+U8 (TP4056),STDBY,LED D1,,hacia VCC
+U8 (TP4056),PROG,GND,,via resistencia 2.4k
+U8 (TP4056),BAT,+BATT (raw),,antes de proteccion
+Bateria,+,Q1 (FS8205A),S1,
+Bateria,-,GND,,
+Q1 (FS8205A),S2,-BATT,,nodo protegido
+Q1 (FS8205A),G1,U3 (DW01A),OD,
+Q1 (FS8205A),D1/D2,U3 (DW01A),CS,via R6 (1k)
+Q1 (FS8205A),G2,U3 (DW01A),OC,
+U3 (DW01A),VCC,+BATT,,via R5 (470)
+U3 (DW01A),GND,-BATT,,
+U4 (MAX17048),VDD,+BATT,,
+U4 (MAX17048),GND,GND,,
+U4 (MAX17048),SDA,Bus I2C,,compartido con U5 y U6
+U4 (MAX17048),SCL,Bus I2C,,compartido con U5 y U6
+U5 (ATtiny1614),VDD,+BATT,,
+U5 (ATtiny1614),GND,GND,,
+U5 (ATtiny1614),PA1,Bus I2C,SDA,
+U5 (ATtiny1614),PA2,Bus I2C,SCL,
+U5 (ATtiny1614),PA3,SW1,,boton
+U5 (ATtiny1614),PA0/UPDI,J2,,header de programacion
+Bus I2C,"SDA, SCL",+BATT,,via R9 y R10 (4.7k pull-up)
+U6 (OLED),VCC,+BATT,,
+U6 (OLED),GND,GND,,
+U6 (OLED),SDA,Bus I2C,,
+U6 (OLED),SCL,Bus I2C,,
+U1 (MT3608),IN,+BATT,,
+U1 (MT3608),GND,GND,,
+U1 (MT3608),SW,"L1, D3",VOUT,inductor + diodo Schottky
+U1 (MT3608),FB,"R7 (10k), R8 (75k)",,divisor resistivo
+U1 (MT3608),EN,+BATT,,
+J1 (USB-A),VBUS,VOUT,,
+J1 (USB-A),D+,D-,,puenteados entre si
+J1 (USB-A),GND,GND,,
