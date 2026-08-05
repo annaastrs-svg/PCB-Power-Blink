@@ -10,7 +10,7 @@ o m g
 <img width="1917" height="1198" alt="Captura de pantalla 2026-07-30 190120" src="https://github.com/user-attachments/assets/536a18ba-14db-4731-8c40-745f2834834a" />
 
 
-BTW BTW BTW low key look at my [JOURNAL.MD WOOWOWOWOWOWWOWOOOO!]([https://github.com/annaastrs-svg/PCB-Power-Blink/blob/actualizacion/journal.md](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/main/Journal.md))
+BTW BTW BTW low key look at my [JOURNAL.MD WOOWOWOWOWOWWOWOOOO!](https://github.com/annaastrs-svg/PCB-Power-Blink/blob/main/Journal.md)
 
 KiCAD
 --
